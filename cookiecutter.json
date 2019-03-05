@@ -1,13 +1,13 @@
 {
-    "full_name": "Mads Kjeldgaard",
-    "email": "mail@madskjeldgaard.dk",
-    "github_username": "{{cookiecutter.github_username}}",
-    "project_name": "My Tool",
-    "repo_name": "python-mytool",
-    "pypi_name": "mytool",
-    "script_name": "my-tool",
-    "package_name": "my_tool",
-    "project_short_description": "My Tool does one thing, and one thing well.",
-    "year": {% now 'local', '%Y' %},
-    "version": "0.1.0"
+	"full_name": "Mads Kjeldgaard",
+	"email": "mail@madskjeldgaard.dk",
+	"github_username": "{{cookiecutter.github_username}}",
+	"project_name": "My Tool",
+	"repo_name": "python-mytool",
+	"pypi_name": "mytool",
+	"script_name": "my-tool",
+	"package_name": "my_tool",
+	"project_short_description": "My Tool does one thing, and one thing well.",
+	"year": "{% now 'local', '%Y' %}",
+	"version": "0.1.0"
 }
