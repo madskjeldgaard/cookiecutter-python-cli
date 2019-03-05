@@ -8,5 +8,6 @@
     "script_name": "my-tool",
     "package_name": "my_tool",
     "project_short_description": "My Tool does one thing, and one thing well.",
+    "year": {% now 'local', '%Y' %},
     "version": "0.1.0"
 }
